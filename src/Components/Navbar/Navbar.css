@@ -1,0 +1,60 @@
+.we-see_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.we-see_navbar-logo{
+    font-size: 1.2rem;
+    padding-left: 9rem;
+}
+.we-see_navbar-sign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.we-see_navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+
+.we-see_navbar-sign-sign-in{
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.we-see_navbar-sign-sign-up{
+    color: rgb(237, 141, 16);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+    
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .we-see_navbar {
+        padding: 1rem;
+    }
+
+    .we-see_navbar-sign{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .we-see_navbar-sign-sign-up{
+        margin-top: 1rem;
+    }
+} 
