@@ -1,18 +1,25 @@
-.we-see_navbar{
+.we-see_navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
-.we-see_navbar-logo{
-    font-size: 1.2rem;
-    padding-left: 9rem;
+.we-see_navbar-logo {
+    font-size: 1.5rem;
+    padding-left: 2rem;
 }
-.we-see_navbar-sign {
+
+.we-see_navbar-tags {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5rem;
+    align-items: center; 
+    font-size: larger;
+    padding-right: 4rem;
+}
+
+.navbar-item {
+    padding-left: 7rem; 
 }
 
 .we-see_navbar-sign {
@@ -21,40 +28,85 @@
     align-items: center;    
 }
 
-.we-see_navbar-sign-sign-in{
-    color: #000;
+.we-see_navbar-sign-sign-in, 
+.we-see_navbar-sign-sign-up {
     font-weight: 700;
     font-size: 25px;
     line-height: 25px;
     text-transform: capitalize;
-
     margin: 0 1rem;
     cursor: pointer;
 }
 
-.we-see_navbar-sign-sign-up{
-    color: rgb(237, 141, 16);
+.we-see_navbar-sign-sign-up {
+    display: inline-block;
+    padding: 0.8rem;
+    color: #fff;
+    background-color: rgb(237, 141, 16); /* Primary color */
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     font-weight: 700;
     font-size: 25px;
     line-height: 25px;
     text-transform: capitalize;
-    
     margin: 0 1rem;
     cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+    background-color: #0056b3; /* Darker shade for hover/focus */
+    transform: scale(1.05);
+}
 
-@media screen and (max-width: 550px) {
+@media (max-width: 1024px) {
+    .we-see_navbar-logo {
+        font-size: 1.1rem;
+    }
+
+    .we-see_navbar-tags {
+        font-size: medium;
+    }
+
+    .navbar-item {
+        padding-left: 1rem;
+    }
+
+    .we-see_navbar-sign-sign-in, 
+    .we-see_navbar-sign-sign-up {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
     .we-see_navbar {
-        padding: 1rem;
-    }
-
-    .we-see_navbar-sign{
         flex-direction: column;
-        justify-content: flex-end;
+        align-items: flex-start;
     }
 
-    .we-see_navbar-sign-sign-up{
-        margin-top: 1rem;
+    .we-see_navbar-tags {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: medium;
     }
-} 
+
+    .navbar-item {
+        padding-left: 0;
+        margin-bottom: 0.5rem; 
+    }
+
+    .we-see_navbar-sign {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .we-see_navbar-sign-sign-in, 
+    .we-see_navbar-sign-sign-up {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}

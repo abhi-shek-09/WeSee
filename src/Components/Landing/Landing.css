@@ -1,0 +1,103 @@
+.we-see_landing {
+    display: flex;
+    justify-content: start;
+    padding: 5rem;
+}
+
+.we-see_landing-text {
+    max-width: 800px; 
+}
+
+.we-see_landing-text h1 {
+    font-size: 4rem; 
+    color: #333; 
+}
+
+.we-see_landing-text h4 {
+    font-size: 2rem; 
+    max-width: 600px;
+    padding-left: 4rem; 
+}
+
+.we-see_landing-logo{
+    width: 100%;
+    height: auto; 
+    padding-left: 5rem;
+}
+
+@media (max-width: 1610px) {
+    .we-see_landing {
+        padding: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .we-see_landing-text {
+        max-width: 100%;
+    }
+
+    .we-see_landing-text h1 {
+        font-size: 3rem;
+    }
+
+    .we-see_landing-text h4 {
+        font-size: 1.5rem;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .we-see_landing-logo {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .we-see_landing {
+        padding: 3rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .we-see_landing-text {
+        max-width: 100%;
+    }
+
+    .we-see_landing-text h1 {
+        font-size: 3rem;
+    }
+
+    .we-see_landing-text h4 {
+        font-size: 1.5rem;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .we-see_landing-logo {
+        padding-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 970px) {
+    .we-see_landing {
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .we-see_landing-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .we-see_landing-text h4 {
+        font-size: 1.25rem;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .we-see_landing-logo {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
