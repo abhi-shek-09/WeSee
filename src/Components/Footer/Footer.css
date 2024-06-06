@@ -1,10 +1,14 @@
 .footer {
-    background-color: #ff7f00; /* Orange color for the footer */
-    color: #fff; /* White text color */
-    text-align: center; /* Center-align text */
-    padding: 20px 0; /* Padding for top and bottom */
-    position: fixed; /* Fixed position at the bottom */
-    left: 0; /* Align to the left edge */
-    bottom: 0; /* Align to the bottom edge */
-    width: 100%; /* Full width */
+    background-color: #ff7f00; 
+    color: #fff; 
+    font-size: 1.25rem;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0.25rem; 
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    z-index: 1000; 
 }

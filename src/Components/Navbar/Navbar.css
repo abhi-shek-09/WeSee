@@ -62,9 +62,9 @@
     transform: scale(1.05);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1140px) {
     .we-see_navbar-logo {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .we-see_navbar-tags {
