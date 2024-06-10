@@ -1,0 +1,115 @@
+.we-see_homenav {
+    background-color: #ff7f00; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.we-see_homenav-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.we-see_homenav-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 1.5rem;
+}
+
+.we-see_homenav-tags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.we-see_homenav-tags h4 {
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.we-see_homenav-logout {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1610px) {
+    .we-see_homenav {
+        padding: 1rem;
+    }
+
+    .we-see_homenav-logo {
+        font-size: 1.5rem;
+    }
+
+    .we-see_homenav-tags h4 {
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 1350px) {
+    .we-see_homenav {
+        padding: 0.75rem;
+    }
+
+    .we-see_homenav-logo {
+        font-size: 1.25rem;
+    }
+
+    .we-see_homenav-tags h4 {
+        margin: 0 0.25rem;
+    }
+}
+
+@media (max-width: 1140px) {
+    .we-see_homenav {
+        padding: 0.5rem;
+    }
+
+    .we-see_homenav-logo {
+        font-size: 1rem;
+    }
+
+    .we-see_homenav-tags h4 {
+        margin: 0 0.25rem;
+    }
+}
+
+@media (max-width: 970px) {
+    .we-see_homenav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem 1rem;
+    }
+
+    .we-see_homenav-logo {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .we-see_homenav-tags {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .we-see_homenav-tags h4 {
+        margin: 0.25rem 0;
+    }
+
+    .we-see_homenav-logout {
+        align-self: flex-end;
+    }
+}
