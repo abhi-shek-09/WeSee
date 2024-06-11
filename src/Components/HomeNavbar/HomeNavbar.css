@@ -1,114 +1,149 @@
 .we-see_homenav {
-    background-color: #ff7f00;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.6rem 2rem;
-    position: sticky;
+    background-color: #ff7f00; 
+    color: #fff; 
+    font-size: 1.25rem;
+    text-align: center;
     top: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0.25rem; 
+    position: fixed;
+    left: 0; 
     width: 100%; 
-    z-index: 1000;
+    z-index: 1000; 
+    margin: 0; 
+    
 }
 
 .we-see_homenav-right {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    padding-right: 1rem;
 }
 
 .we-see_homenav-logo {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
-    margin: 0;
-    padding-right: 1.5rem;
+    padding-right: 6rem;
 }
 
 .we-see_homenav-tags {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
 .we-see_homenav-tags h4 {
+    font-size: 1.5rem;
     margin: 0 1rem;
-    font-size: 1.3rem;
     cursor: pointer;
-    padding: 1rem;
 }
 
 .we-see_homenav-logout {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
+    padding-right: 1rem;
 }
 
-/* Media Queries for responsiveness */
 @media (max-width: 1610px) {
-    .we-see_homenav {
-        padding: 1rem;
+    .we-see_landing {
+        padding: 2rem;
+        justify-content: center;
+        text-align: center;
     }
 
-    .we-see_homenav-logo {
+    .we-see_landing-text {
+        max-width: 100%;
+    }
+
+    .we-see_landing-text h1 {
+        font-size: 3rem;
+    }
+
+    .we-see_landing-text h4 {
         font-size: 1.5rem;
+        padding-left: 0;
+        max-width: 100%;
     }
 
-    .we-see_homenav-tags h4 {
-        margin: 0 0.5rem;
+    .we-see_landing-logo {
+        max-width: 80%;
     }
 }
 
 @media (max-width: 1350px) {
-    .we-see_homenav {
-        padding: 0.75rem;
+    .we-see_landing {
+        padding: 1rem;
+        justify-content: center;
+        text-align: center;
     }
 
-    .we-see_homenav-logo {
-        font-size: 1.25rem;
+    .we-see_landing-text {
+        max-width: 100%;
     }
 
-    .we-see_homenav-tags h4 {
-        margin: 0 0.25rem;
+    .we-see_landing-text h1 {
+        font-size: 2.3rem;
+    }
+
+    .we-see_landing-text h4 {
+        font-size: 1.5rem;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .we-see_landing-logo {
+        max-width: 100%;
     }
 }
 
+
 @media (max-width: 1140px) {
-    .we-see_homenav {
-        padding: 0.5rem;
+    .we-see_landing {
+        padding: 2rem;
+        justify-content: center;
+        text-align: center;
     }
 
-    .we-see_homenav-logo {
-        font-size: 1rem;
+    .we-see_landing-text {
+        max-width: 100%;
     }
 
-    .we-see_homenav-tags h4 {
-        margin: 0 0.25rem;
+    .we-see_landing-text h1 {
+        font-size: 2rem;
+    }
+
+    .we-see_landing-text h4 {
+        font-size: 1.5rem;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .we-see_landing-logo {
+        padding-left: 0;
+        max-width: 100%;
     }
 }
 
 @media (max-width: 970px) {
-    .we-see_homenav {
+    .we-see_landing {
+        padding: 2rem;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0.5rem 1rem;
+        align-items: center;
     }
 
-    .we-see_homenav-logo {
-        font-size: 1rem;
-        margin-bottom: 0.5rem;
+    .we-see_landing-text h1 {
+        font-size: 2rem;
     }
 
-    .we-see_homenav-tags {
-        flex-direction: column;
-        align-items: flex-start;
+    .we-see_landing-text h4 {
+        font-size: 1.25rem;
+        padding-left: 8.5rem;
+        text-align: center;
+        max-width: 70%;
     }
 
-    .we-see_homenav-tags h4 {
-        margin: 0.25rem 0;
-    }
-
-    .we-see_homenav-logout {
-        align-self: flex-end;
+    .we-see_landing-logo {
+        padding-left: 0;
+        width: 100%;
     }
 }
