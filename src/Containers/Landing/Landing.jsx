@@ -1,5 +1,6 @@
+import React from "react";
 import './Landing.css';
-import {Navbar, Body, Footer} from '../../Components';
+import { Navbar, Body, Footer } from '../../Components';
 
 function Landing() {
   return (

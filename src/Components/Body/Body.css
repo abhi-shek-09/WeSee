@@ -1,8 +1,9 @@
 .we-see_landing {
     display: flex;
     justify-content: start;
-    padding-left: 15rem;
+    padding-left: rem;
     padding-top: 5rem;
+    
 }
 
 .we-see_landing-text {

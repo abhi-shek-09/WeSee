@@ -1,4 +1,19 @@
-.App {
-  text-align: center;
+/* Landing.css */
+.Landing {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
 }
 
+.Landing main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing .footer {
+    width: 100%;
+}

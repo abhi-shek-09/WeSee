@@ -1,5 +1,6 @@
 import React from "react";
-import './HomeNavbar.css'
+import './HomeNavbar.css';
+
 const HomeNavbar = () =>{
     return (
         <div className="we-see_homenav">
@@ -13,7 +14,7 @@ const HomeNavbar = () =>{
             </div>
             <h4 className="we-see_homenav-logout">Logout</h4>
         </div>
-    )
+    );
 }
 
 export default HomeNavbar;
