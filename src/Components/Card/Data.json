@@ -1,0 +1,19 @@
+[
+    {
+        "imgSrc": "../../Assets/CardImages/image1.jpeg",
+        "imgAlt": "Image Description",
+        "title": "Card Title",
+        "description": "Card Description",
+        "buttonText": "Learn More",
+        "link": "/learn-more"
+    },
+    {
+        "imgSrc": "../../Assets/CardImages/image2.jpeg",
+        "imgAlt": "Another Image Description",
+        "title": "Another Card Title",
+        "description": "Another Card Description",
+        "buttonText": "Read More",
+        "link": "/read-more"
+    }
+    
+]
