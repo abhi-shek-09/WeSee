@@ -1,7 +1,7 @@
 // src/Containers/Home.js
 import React, { useEffect, useState } from "react";
 import { HomeNavbar, Card } from '../../Components';
-import data from '../../Components/Card/Data.json'; // Adjust the path as necessary
+import data from '../../Components/Card/Data.js'; // Adjust the path as necessary
 
 const Home = () => {
     const [cards, setCards] = useState([]);
