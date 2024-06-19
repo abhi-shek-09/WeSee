@@ -1,0 +1,24 @@
+.we-see_landing {
+    display: flex;
+    justify-content: start;
+    padding-left: rem;
+    padding-top: 5rem;
+    
+}
+
+.we-see_landing-text {
+    max-width: 800px;
+}
+
+.we-see_landing-text h1 {
+    font-size: 4rem; 
+    color: #333; 
+    text-align: center;
+}
+
+.we-see_landing-text h4 {
+    font-size: 2rem; 
+    max-width: 600px;
+    text-align: center;
+    padding-left: 2rem;
+}

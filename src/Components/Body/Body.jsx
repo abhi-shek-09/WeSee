@@ -1,6 +1,6 @@
 import React from "react";
 import './Body.css'
-import logo from '../../Assets/Landing.jpg' 
+import logo from '../../Assets/Landing.png' 
 const Body = () =>{
     return (
         <div className="we-see_landing">
