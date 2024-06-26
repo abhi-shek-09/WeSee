@@ -1,24 +1,83 @@
-.we-see_landing {
+.card-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 100%; 
     display: flex;
-    justify-content: start;
-    padding-left: rem;
-    padding-top: 5rem;
-    
+    margin-top: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.we-see_landing-text {
-    max-width: 800px;
+.card-img {
+    max-width: 20%; 
+    height: auto;
+    border-radius: 5px;
+    margin-right: 2rem; 
 }
 
-.we-see_landing-text h1 {
-    font-size: 4rem; 
-    color: #333; 
-    text-align: center;
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex: 1;
 }
 
-.we-see_landing-text h4 {
-    font-size: 2rem; 
-    max-width: 600px;
-    text-align: center;
-    padding-left: 2rem;
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-description {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5; 
+    max-width: 80%;
+    margin-top: 0; 
+}
+
+.additional-info {
+    padding-left: 3rem; 
+}
+
+.additional-info p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.additional-info a {
+    color: #ff7f00;
+    text-decoration: none;
+}
+
+.additional-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company-logo {
+        max-width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-title {
+        align-self: center;
+    }
+
+    .additional-info {
+        padding-left: 0; 
+        text-align: center; 
+    }
 }

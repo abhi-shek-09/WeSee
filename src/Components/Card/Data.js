@@ -1,10 +1,10 @@
 const data = [
   {
     imgSrc: require("../../Assets/CardImages/image1.jpeg"),
-    imgAlt: "Raise",
-    title: "Raise Holding Co",
+    imgAlt: "Zerodha",
+    title: "Zerodha Broking LTD",
     description:
-      "At Raise, we aim to bring exceptionally great products, awesome user experience and best in class customer service to our users. We are building technology-led consumer products & infrastructure services to serve Indians with financial services.We are building for the financially aware & financially literate users. Our large focus is on financial services for residents of Metros & Tier 1 & 2 cities / towns in India.We are aiming for zero to one. We have no legacy, and building it all ground up. Driven by technology, scaling with technology.",
+      "Zerodha is an Indian financial services company (member of NSE, BSE, MCX) that offers brokerage-free equity investments, retail, institutional broking, currencies, and commodities trading.",
     buttonText: "Learn More",
     link: "/learn-more",
   },
